@@ -1,0 +1,27 @@
+#candidates {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid whitesmoke;
+    width: 100%;
+}
+
+#candidates td, #candidates th {
+    border: 1px solid whitesmoke;
+    padding: 15px;
+}
+
+#candidates tr:nth-child(even){background-color: white;}
+
+#candidates tr:hover {background-color: white;}
+
+#candidates th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+#candidates tr{
+    text-align: left;
+}
